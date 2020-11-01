@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{int x;
+float a,b,c;
+printf("Enter the two nos:\n");
+scanf("%f %f",&a,&b);
+printf("Choose the number corresponding to item");
+printf("Choices:\n 1. Addition\n 2. Subtraction\n 3. Multiplication\n 4. Dvision\n  ");
+scanf("%d",&x);
+switch(x)
+{
+case 1 :
+c=a+b;
+printf("%f",c);
+break;
+case 2 :
+c=a-b;
+printf("%f",c);
+break;
+case 3 :
+c=a*b;
+printf("%f",c);
+break;
+case 4 :
+c=a/b;
+printf("%f",c);
+break;
+default :
+printf("choose correct option");
+break;
+}
+}
